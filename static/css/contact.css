@@ -1,0 +1,110 @@
+#page_content {
+    text-align: center;
+    height: 85%;
+}
+
+#higher_part {
+    position: relative;
+    background-position: center;
+    height: 80%;
+    width: 100%;
+}
+
+#demo-canvas {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#higher_part h1 {
+    position: absolute;
+    margin: 0;
+    font-weight: 400;
+    font-style: normal;
+    color: #F9F1E9;
+    line-height: 1em;
+    letter-spacing: 0.0888889em;
+    text-align: center;
+    top: 35%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    font-size: 3.2rem;
+}
+
+#higher_part button {
+    position: absolute;
+    padding: 1em 1.75em;
+    line-height: 1em;
+    box-sizing: border-box;
+    border: 2px solid white;
+    font-weight: 550;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 2px;
+    border-radius: 300px;
+    background-color: Transparent;
+    color: white;
+    transition: all 0.3s ease 0s;
+    text-align: center;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+#linkedin-button {
+    left: 40%;
+    top: 50%;
+}
+
+#github-button {
+    left: 60%;
+    top: 50%;
+}
+
+#higher_part button:hover {
+    border-radius: 6px;
+    transition: all 0.3s ease 0s;
+    -webkit-box-shadow: 0px 5px 40px -10px white;
+    -moz-box-shadow: 0px 5px 40px -10px white;
+}
+
+#lower_part {
+    position: relative;
+    height: 20%;
+    padding-top: 2%;
+    background-color: white;
+}
+
+#lower_part p {
+    position: relative;
+}
+
+#email_address {
+    padding-top: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+    #linkedin-button {
+        top: 55%;
+        left: 50%;
+    }
+
+    #github-button {
+        top: 75%;
+        left: 50%;
+    }
+
+    #higher_part {
+
+    }
+
+    #higher_part h1 {
+        top: 35%;
+    }
+
+    #lower_part {
+        height: 48%;
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+    }
+}
