@@ -91,7 +91,7 @@
     color: #778492;
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 
     #head_part {
         background: #fff;
