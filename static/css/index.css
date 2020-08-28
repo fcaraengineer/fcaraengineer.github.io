@@ -14,8 +14,8 @@
     height: auto;
     margin: 2% 1% 2% 2%;
     text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 
 #head_part img {
@@ -41,6 +41,7 @@
     font-size: 24px;
 	letter-spacing: .01em;
     font-family: "Lato", arial, sans-serif;
+    margin-bottom: 10px;
 }
 
 #head_part button {
