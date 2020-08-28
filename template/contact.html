@@ -1,20 +1,60 @@
-{% extends 'base_layout.html' %}
-{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Fabrizio Cara">
+    <meta name="description" content="Fabrizio Cara Portfolio">
+    <meta name="keywords" content="Fabrizio Cara, FCara, Fabrizio Cara Portfolio, FCara Portfolio">
+    <title>Fabrizio Cara Engineering</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/css/base_layout.css">
     <link rel="stylesheet" href="../static/css/contact.css">
-    <div id="page_content">
-        <div id="higher_part">
-            <h1>Contact</h1>
-            <button type="button" onclick="window.open('resume','_blank')" id="linkedin-button"> LINKEDIN </button>
-            <button type="button" onclick="window.open('resume','_blank')" id="github-button"> GITHUB </button>
-        </div>
-        <div id="lower_part">
-            <p> Thank you for visiting my portfolio. If you'd like to see more
-                know more about my experience and education visit my linkedin
-                and Github profile using the button above. If you’d like to get
-                in touch please contact me using the email listed below.
+<body>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="index"> Fabrizio Cara <br> Engineering </a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" id="home_button" href="index"> Home </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="project_button" href="projects"> Projects </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact_button" href="contact"> Contact </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="page_content">
+    <div id="main_box">
+        <div id="text_part">
+            <p> Thank you for visiting my portfolio! <br> <br>
+                If you'd like to know more about my experience and education
+                visit my linkedin and Github profile using the buttons below. <br>
+                If you’d like to get in touch please contact me using the email
+                button below.
             </p>
-            <a href="mailto:fabrizio.cara@unica.it" target="_top" id="email_address"> fabrizio.cara@unica.it </a>
+        </div>
+        <div id="link_part">
+
         </div>
     </div>
-    <script src="../static/js/contact.js"></script>
-{% endblock %}
+</div>
+
+<script src="../static/js/contact.js"></script>
+<script src="../static/js/TweenLite.min.js"></script>
+<script src="../static/js/EasePack.min.js"></script>
+
+</body>
+</html>
