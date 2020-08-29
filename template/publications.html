@@ -41,13 +41,13 @@
 
 
 <div id="page_content">
-        {% for project in site.data.publications.projects %}
+    {% for publication in site.data.publications %}
         <div id="publication_box">
             <div id="publication_text">
-                <h3> {{ project.title }} </h3>
-                <p> {{ project.intro }} </p>
-                <p> {{ project.description }} </p>
-                <p> Link Paper: <a href="{{ project["Link Paper"] }}" target="_blank"> {{ project.link_paper. }}  </a> </p>
+                <h3> {{ publication.title }} </h3>
+                <p> {{ publication.intro }} </p>
+                <p> {{ publication.description }} </p>
+                <p> Link Paper: <a href="{{ project["Link Paper"] }}" target="_blank"> {{ publication.link_paper. }}  </a> </p>
             </div>
         </div>
     {% endfor %}
