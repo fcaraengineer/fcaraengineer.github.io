@@ -44,10 +44,10 @@
         {% for project in site.data.publications %}
         <div id="publication_box">
             <div id="publication_text">
-                <h3> {{ project["Title"] }} </h3>
-                <p> {{ project["Intro"] }} </p>
-                <p> {{ project["Description"] }} </p>
-                <p> Link Paper: <a href="{{ project["Link Paper"] }}" target="_blank"> {{ project["Link Paper"] }}  </a> </p>
+                <h3> {{ project.Title }} </h3>
+                <p> {{ project.Intro }} </p>
+                <p> {{ project.Description }} </p>
+                <p> Link Paper: <a href="{{ project["Link Paper"] }}" target="_blank"> {{ project.Link Paper. }}  </a> </p>
             </div>
         </div>
     {% endfor %}
