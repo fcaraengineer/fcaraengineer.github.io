@@ -1,0 +1,19 @@
+.navbar {
+    padding: .3rem 1rem;
+}
+
+.navbar-brand {
+    text-align: center;
+    font-size: 18px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    font-size: 18px;
+    font-family: proxima-nova, Helvetica Neue, Helvetica, Arial,sans-serif;
+}
+
+body {
+    height: 100vh;
+    font-family: Roboto, Helvetica Neue, Arial, sans-serif;
+}

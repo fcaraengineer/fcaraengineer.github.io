@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Fabrizio Cara">
+    <meta name="description" content="Fabrizio Cara Portfolio">
+    <meta name="keywords" content="Fabrizio Cara, FCara, Fabrizio Cara Portfolio, FCara Portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fabrizio Cara Engineering</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/base_layout.css">
+    <link rel="stylesheet" href="/static/css/publications.css">
+<body>
+
+<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <!-- Brand -->
+    <a class="navbar-brand" href="/index"> Fabrizio Cara <br> Engineering </a>
+
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav text-center">
+            <li class="nav-item">
+                <a class="nav-link" id="home_button" href="/index"> Home </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="project_button" href="/template/projects"> Projects </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="publication_button" href="/template/publications"> Publications </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="contact_button" href="/template/contact"> Contact </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="page_content">
+	<div id="publication_box">
+		<div id="publication_text">
+			<h3> PowerDrive: Accurate De-obfuscation and Analysis of PowerShell Malware </h3>
+			<p> PowerShell is extensively used by malware vectors to execute payloads or drop additional malicious contents. PowerShell attacks are challenging to analyze due to the extensive use of multiple obfuscation layers, which make the real malicious code hard to be unveiled. To the best of our knowledge, a comprehensivesolution for properly de-obfuscating such attacks is currently missing. PowerDrive is an open-source, static and dynamic multi-stage de-obfuscator for PowerShell attacks. PowerDrive instruments the PowerShell code to progressively de-obfuscate it by showing the analyst the employed obfuscation steps. </p>
+			<p> In this project, my role was to provide the data used to create the tool PowerDrive. In order to do so, I developed a dynamic analyzer to extract PowerShell code from thousands of infected office files. See <link Oblivion> to know more. </p>
+			<p> Link Paper: <a href="https://link.springer.com/chapter/10.1007/978-3-030-22038-9_12" target="_blank"> Click here to get access to the paper </a> </p>
+		</div>
+	</div>
+</div>
+
+
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.min.js"></script>
+<script src="/static/js/publications.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+#page_content {
+    text-align: center;
+    height: 85%;
+}
+
+#higher_part {
+    background-image: url("../img/home-noise.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+#higher_part img {
+    width: 70%;
+    max-width: 2048px;
+    max-height: 800px;
+    height: auto;
+}
+
+#lower_part {
+    position: relative;
+    width: 100%;
+    max-width: 2048px;
+    padding: 2% 15%;
+    background-color: white;
+}
+
+#single_project_box {
+    display : inline-flex;
+}
+
+#project_text {
+    width: 65%;
+    margin-right: 1%;
+}
+
+#project_img {
+    width: 35%;
+}
+
+#division_line{
+    height: 20%;
+    width: 100%;
+}
+
+#project_text p,
+#project_text h3 {
+    text-align: justify;
+}
+
+#project_img img {
+    width: 100%;
+    border: 2px solid #fff;
+    -moz-box-shadow: 5px 5px 2px #ccc;
+    -webkit-box-shadow: 5px 5px 2px #ccc;
+    box-shadow: 5px 5px 2px #ccc;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+hr.hr_style {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+@media only screen and (max-width: 768px) {
+   .demo .main-title {
+      font-size: 3em;
+   }
+}

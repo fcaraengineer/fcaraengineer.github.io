@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    height: 100vh;        /* Viewport-relative units */
+    width: 100vw;
+}
+
+iframe {
+    display: block;       /* iframes are inline by default */
+    background: #000;
+    border: none;         /* Reset default border */
+    height: 100%;        /* Viewport-relative units */
+    width: 100%;
+}

@@ -1,0 +1,118 @@
+#page_content {
+    background-color: #DAE3E7;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+#head_part {
+    background: #fff;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    border-radius: .25rem;
+    float: left;
+    width: 37%;
+    height: auto;
+    margin: 2% 1% 2% 2%;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+#head_part img {
+    width: 70%;
+    max-width: 300px;
+    margin-bottom: 30px;
+    padding:1px;
+    border: 2px solid black;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+
+#head_part h1 {
+    color: #343a40;
+    font-size: 38px;
+    font-weight: 700;
+	letter-spacing: .01em;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+#head_part h2 {
+    color: #778492;
+    font-weight: 400;
+    font-size: 24px;
+	letter-spacing: .01em;
+    font-family: "Lato", arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+#head_part button {
+    background-color: white;
+    color: #2ecc71;
+    border: 2px #2ecc71 solid;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 22px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+}
+
+#head_part button:hover {
+    color: #fff;
+    background-color: #2ecc71;
+}
+
+#about_part{
+    background: #fff;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    border-radius: .25rem;
+    float: right;
+    width: 57%;
+    height: auto;
+    margin: 2% 2% 2% 1%;
+    text-align: justify;
+}
+
+#about_part h1 {
+    color: #343a40;
+    font-size: 28px;
+    font-weight: 700;
+	letter-spacing: .01em;
+    font-family: Trebuchet MS, sans-serif;
+}
+
+#about_part_content {
+    margin: 3%;
+}
+
+.navbar-brand, .nav-link {
+    color: #778492;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #head_part {
+        background: #fff;
+        box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+        border-radius: .25rem;
+        width: 96%;
+        height: auto;
+        margin: 2% 2% 2% 2%;
+        text-align: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    #about_part{
+        background: #fff;
+        box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+        border-radius: .25rem;
+        width: 96%;
+        height: auto;
+        margin: 2% 2% 2% 2%;
+        text-align: justify;
+    }
+}
