@@ -41,14 +41,16 @@
 
 
 <div id="page_content">
-    <div id="publication_box">
-        <div id="publication_text">
-            <h1> Title </h1>
-            <p> askjbckjhdsn ckhnedcnjsncjanmiocisc sa </p>
-            <p> sadjkdncuinuidncu niudnfdniucnuejncu sodnfucninviun </p>
-            <p> Link Paper: <a href="" target="_blank"> Link  </a> </p>
+        {% for project in site.data.publications %}
+        <div id="publication_box">
+            <div id="publication_text">
+                <h3> {{ project["Title"] }} </h3>
+                <p> {{ project["Intro"] }} </p>
+                <p> {{ project["Description"] }} </p>
+                <p> Link Paper: <a href="{{ project["Link Paper"] }}" target="_blank"> {{ project["Link Paper"] }}  </a> </p>
+            </div>
         </div>
-    </div>
+    {% endfor %}
 </div>
 
 

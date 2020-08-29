@@ -1,0 +1,16 @@
+{
+  "0": {
+    "Title": "PowerDrive",
+    "Intro": "PowerShell is extensively used by malware vectors to execute payloads or drop additional malicious contents. PowerShell attacks are challenging to analyze due to the extensive use of multiple obfuscation layers, which make the real malicious code hard to be unveiled. To the best of our knowledge, a comprehensivesolution for properly de-obfuscating such attacks is currently missing. PowerDrive is an open-source, static and dynamic multi-stage de-obfuscator for PowerShell attacks. PowerDrive instruments the PowerShell code to progressively de-obfuscate it by showing the analyst the employed obfuscation steps.",
+    "Description": "In this project, my role was to provide the data used to create the tool PowerDrive. In order to do so, I developed a dynamic analyzer to extract PowerShell code from thousands of infected office files. See <link Oblivion> to know more.",
+    "Link Paper": "https://link.springer.com/chapter/10.1007/978-3-030-22038-9_12",
+    "Img Path": "../static/img/test.jpg"
+  },
+  "1": {
+    "Title": "PowerDrive",
+    "Intro": "PowerShell is extensively used by malware vectors to execute payloads or drop additional malicious contents. PowerShell attacks are challenging to analyze due to the extensive use of multiple obfuscation layers, which make the real malicious code hard to be unveiled. To the best of our knowledge, a comprehensivesolution for properly de-obfuscating such attacks is currently missing. PowerDrive is an open-source, static and dynamic multi-stage de-obfuscator for PowerShell attacks. PowerDrive instruments the PowerShell code to progressively de-obfuscate it by showing the analyst the employed obfuscation steps.",
+    "Description": "In this project, my role was to provide the data used to create the tool PowerDrive. In order to do so, I developed a dynamic analyzer to extract PowerShell code from thousands of infected office files. See <link Oblivion> to know more.",
+    "Link Paper": "https://link.springer.com/chapter/10.1007/978-3-030-22038-9_12",
+    "Img Path": "../static/img/test.jpg"
+  }
+}
