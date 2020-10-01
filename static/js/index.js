@@ -7,10 +7,12 @@ $(document).ready(function() {
 });
 
 function resizePage(){
-    if ($(window).height() >= 790) {
-        var windowHeight = $(window).height();
-        var navbarHeight = $(".navbar").height();
-        var finalPageHeight = windowHeight - navbarHeight - 10;
+    var pageHeight = document.getElementById('page_content').offsetHeight;
+    var navbarHeight = $(".navbar").height() + 10;
+    var pageContentHeight = pageHeight + navbarHeight;
+    var windowHeight = $(window).height();
+    if (windowHeight >= pageContentHeight) {
+        var finalPageHeight = windowHeight - navbarHeight;
         document.getElementById('page_content').style.height = finalPageHeight + "px";
     }
     else {
